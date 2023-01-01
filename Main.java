@@ -19,4 +19,8 @@ public class Main {
 	      }
 	      else {
 	    	  System.out.println("Line A and Line B are Not Equal");
-	}}}
+	      }
+	     Lines compare=new Lines();
+	     compare.compare(lineA ,lineB);
+	      
+	}}
