@@ -6,7 +6,11 @@ public class  Linelength extends Line {
 	void welcome() {
 		System.out.println("welcome to line comparison problem using oops");
 	}
+
 	public void scannerclass() {
+	}
+	
+	 double scanner() { 
 		   Linelength linelength=new Linelength();
 		   Scanner sc=new Scanner(System.in);
 		    
@@ -22,10 +26,11 @@ public class  Linelength extends Line {
 		   linelength.userInput(x1,x2,y1,y2);
 		   System.out.println("length of line x1,x2,y1,y2 :::"  + linelength.userInput(x1,x2,y1,y2));
 		   
-	
-		
-	}
-	}
+		   linelength.userInput(x1, x2, y1, y2);
+		     System.out.println("Length of the line is "+linelength.userInput(x1, x2, y1, y2));
+			return  linelength.userInput(x1, x2, y1, y2);
+	 }
+}
 	
 	
 	

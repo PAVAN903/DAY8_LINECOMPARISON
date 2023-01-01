@@ -9,4 +9,14 @@ public class Main {
 		Linelength linelength=new Linelength();
 		linelength.welcome();
 		linelength.scannerclass();
-	}}
+		 System.out.println("Enter Line 'A' co-ordinator's ");
+	      double lineA=linelength.scanner();
+	      System.out.println("Enter Line 'B' co-ordinator's ");
+	      double lineB=linelength.scanner();
+	      if(lineA==lineB)
+	      {
+	    	  System.out.println("Line A and Line B are Equal");
+	      }
+	      else {
+	    	  System.out.println("Line A and Line B are Not Equal");
+	}}}
